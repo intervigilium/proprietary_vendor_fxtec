@@ -74,68 +74,67 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/dpm/dpm.conf \
     vendor/fxtec/pro1/proprietary/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/dpmd.rc \
     vendor/fxtec/pro1/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/fxtec/pro1/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/cneapiclient.xml \
     vendor/fxtec/pro1/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.dpmframework.xml \
     vendor/fxtec/pro1/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
     vendor/fxtec/pro1/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/fxtec/pro1/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.quicinc.cne.xml \
     vendor/fxtec/pro1/proprietary/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/dpmapi.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/embms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/embms.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/embms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms.xml \
     vendor/fxtec/pro1/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
     vendor/fxtec/pro1/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/fxtec/pro1/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
-    vendor/fxtec/pro1/proprietary/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
+    vendor/fxtec/pro1/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
     vendor/fxtec/pro1/proprietary/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
     vendor/fxtec/pro1/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
-    vendor/fxtec/pro1/proprietary/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QtiTelephonyServicelibrary.jar \
-    vendor/fxtec/pro1/proprietary/framework/cneapiclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/cneapiclient.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/cneapiclient.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/cneapiclient.jar \
     vendor/fxtec/pro1/proprietary/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.dpmframework.jar \
     vendor/fxtec/pro1/proprietary/framework/com.qti.location.sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.location.sdk.jar \
     vendor/fxtec/pro1/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.camera.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.camera.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.constants-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.constants-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.constants-V2.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.1-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.2-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.api-V1.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.api-V1.1-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.constants-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.constants-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.constants-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.constants-V2.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.constants-V2.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.constants-V2.1-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.server-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.server-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.server-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.server-V2.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.server-V2.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.server-V2.1-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/com.quicinc.cne.server-V2.2-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/fxtec/pro1/proprietary/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dpmapi.jar \
-    vendor/fxtec/pro1/proprietary/framework/embmslibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/embmslibrary.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/embmslibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/embmslibrary.jar \
     vendor/fxtec/pro1/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
-    vendor/fxtec/pro1/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcrilhook.jar \
-    vendor/fxtec/pro1/proprietary/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qti-telephony-common.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
     vendor/fxtec/pro1/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.data.factory-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.data.factory-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/fxtec/pro1/proprietary/framework/vendor.qti.hardware.soter-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.soter-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/framework/vendor.qti.latency-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.latency-V2.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
+    vendor/fxtec/pro1/proprietary/product/framework/vendor.qti.latency-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.latency-V2.0-java.jar \
     vendor/fxtec/pro1/proprietary/framework/vendor.qti.voiceprint-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.voiceprint-V1.0-java.jar \
-    vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/fxtec/pro1/proprietary/product/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/fxtec/pro1/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/fxtec/pro1/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/fxtec/pro1/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/fxtec/pro1/proprietary/lib/extractors/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparser.so \
-    vendor/fxtec/pro1/proprietary/lib/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imscamera.so \
-    vendor/fxtec/pro1/proprietary/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvideocodec.so \
-    vendor/fxtec/pro1/proprietary/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtextutils.so \
-    vendor/fxtec/pro1/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so \
+    vendor/fxtec/pro1/proprietary/product/lib/lib-imscamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imscamera.so \
+    vendor/fxtec/pro1/proprietary/product/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvideocodec.so \
+    vendor/fxtec/pro1/proprietary/product/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvtextutils.so \
+    vendor/fxtec/pro1/proprietary/product/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvtutils.so \
     vendor/fxtec/pro1/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/fxtec/pro1/proprietary/lib/libGPTEE_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libGPTEE_system.so \
     vendor/fxtec/pro1/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
@@ -143,15 +142,15 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadsprpc_system.so \
     vendor/fxtec/pro1/proprietary/lib/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcdsprpc_system.so \
     vendor/fxtec/pro1/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
-    vendor/fxtec/pro1/proprietary/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimscamera_jni.so \
-    vendor/fxtec/pro1/proprietary/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsmedia_jni.so \
+    vendor/fxtec/pro1/proprietary/product/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimscamera_jni.so \
+    vendor/fxtec/pro1/proprietary/product/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimsmedia_jni.so \
     vendor/fxtec/pro1/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
     vendor/fxtec/pro1/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/fxtec/pro1/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/fxtec/pro1/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/fxtec/pro1/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/fxtec/pro1/proprietary/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci_system.so \
-    vendor/fxtec/pro1/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
+    vendor/fxtec/pro1/proprietary/product/lib/librcc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/librcc.so \
     vendor/fxtec/pro1/proprietary/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdsprpc_system.so \
     vendor/fxtec/pro1/proprietary/lib/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor1.so \
     vendor/fxtec/pro1/proprietary/lib/libsensor_reg_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor_reg_system.so \
@@ -183,18 +182,18 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/lib/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.soter@1.0.so \
     vendor/fxtec/pro1/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/fxtec/pro1/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/fxtec/pro1/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/fxtec/pro1/proprietary/product/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/fxtec/pro1/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/fxtec/pro1/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/fxtec/pro1/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/fxtec/pro1/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/fxtec/pro1/proprietary/lib64/extractors/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/extractors/libmmparser.so \
     vendor/fxtec/pro1/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
-    vendor/fxtec/pro1/proprietary/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imscamera.so \
-    vendor/fxtec/pro1/proprietary/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
-    vendor/fxtec/pro1/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
-    vendor/fxtec/pro1/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
-    vendor/fxtec/pro1/proprietary/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtutils.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imscamera.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvideocodec.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvt.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtextutils.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtutils.so \
     vendor/fxtec/pro1/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/fxtec/pro1/proprietary/lib64/libGPTEE_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libGPTEE_system.so \
     vendor/fxtec/pro1/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
@@ -207,8 +206,8 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmframework.so \
     vendor/fxtec/pro1/proprietary/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdpmtcm.so \
     vendor/fxtec/pro1/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
-    vendor/fxtec/pro1/proprietary/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
-    vendor/fxtec/pro1/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_abr.so \
     vendor/fxtec/pro1/proprietary/vendor/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_enc.so \
     vendor/fxtec/pro1/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
@@ -218,7 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
     vendor/fxtec/pro1/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
     vendor/fxtec/pro1/proprietary/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqmi_cci_system.so \
-    vendor/fxtec/pro1/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/librcc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/librcc.so \
     vendor/fxtec/pro1/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
     vendor/fxtec/pro1/proprietary/lib64/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor1.so \
     vendor/fxtec/pro1/proprietary/lib64/libsensor_reg_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg_system.so \
@@ -236,7 +235,8 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/fxtec/pro1/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/fxtec/pro1/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.vpp@1.1.so \
-    vendor/fxtec/pro1/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/fxtec/pro1/proprietary/product/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/fxtec/pro1/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/fxtec/pro1/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/fxtec/pro1/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/fxtec/pro1/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
@@ -1101,18 +1101,18 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     libsdm-disp-vndapis \
+    WfdService \
+    com.qualcomm.location \
+    dpmserviceapp \
+    PowerOffAlarm \
+    TimeService \
     QtiTelephonyService \
     datastatusnotification \
     embms \
     imssettings \
     CNEService \
-    WfdService \
-    com.qualcomm.location \
-    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    PowerOffAlarm \
-    TimeService \
     WfdCommon
 endif
 
